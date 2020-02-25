@@ -8,7 +8,7 @@ with OUTDEV
 
 
 select into $outdev
-curnode from dummyt
+sysdate from dummyt
  with nocounter, format, time = 1000000
  
 end
